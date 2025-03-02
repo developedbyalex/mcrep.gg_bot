@@ -1,0 +1,21 @@
+{
+  "name": "mcrep-discord-bot",
+  "version": "1.0.0",
+  "description": "Discord bot for mcrep.gg community",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "@napi-rs/canvas": "^0.1.67",
+    "discord.js": "^14.14.1",
+    "fs": "^0.0.1-security",
+    "js-yaml": "^4.1.0",
+    "path": "^0.12.7",
+    "mongoose": "^8.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}

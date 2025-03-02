@@ -1,0 +1,56 @@
+bot:
+  token: "BOT TOKEN"
+  clientId: "CLIENT ID"
+  guildId: "GUILD ID" 
+
+settings:
+  status: "mcrep.gg"
+  activity: "WATCHING" # PLAYING, WATCHING, LISTENING, COMPETING
+  defaultEmbedColor: "#9600ff"
+
+channels:
+  logs: "1345694375359025255" 
+  
+roles:
+  moderator: "1345694736316370985" 
+
+database:
+  mongodb_uri: "MONGODB ATLAS"
+  name: "DB NAME"
+
+bug_report:
+  channel: "1345694568120586270"
+  color: "#f91536"
+  questions:
+    - label: "What is the bug?"
+      placeholder: "Describe the bug in detail"
+      style: "paragraph"
+      required: true
+    - label: "How can we reproduce this bug?"
+      placeholder: "List the steps to reproduce the bug"
+      style: "paragraph"
+      required: true
+    - label: "What should happen?"
+      placeholder: "Describe what you expected to happen"
+      style: "paragraph"
+      required: true
+    - label: "Additional Information"
+      placeholder: "Any other details that might help (optional)"
+      style: "paragraph"
+      required: false
+
+suggestions:
+  channel: "1345694621228990545"
+  color: "#f8d90d"
+  reactions:
+    upvote: "1345711630671151147"
+    downvote: "1345711653022339113"
+  questions:
+    - label: "Suggestion Title"
+      placeholder: "An amazing feature"
+      style: "short"
+      required: true
+    - label: "Suggestion Description"
+      placeholder: "This is a suggestion for a new feature"
+      style: "paragraph"
+      required: true
